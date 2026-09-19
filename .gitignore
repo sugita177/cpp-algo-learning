@@ -1,0 +1,22 @@
+# Compile outputs & binaries
+*.out
+a.out
+*.exe
+*.o
+*.obj
+*.dSYM/
+bin/
+
+# online-judge-tools test cases
+test/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*~
+.idea/
+.clangd/
+compile_commands.json
