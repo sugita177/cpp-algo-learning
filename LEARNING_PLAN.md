@@ -73,7 +73,7 @@ C++特有のメモリモデル、計算量トラップ、型安全性を把握�
   - 半開区間 `[begin, end)` の設計思想
   - ランダムアクセスイテレータ（`std::vector`, `std::deque`） vs 双方向イテレータ（`std::set`, `std::list`）
   - イテレータの演算（`+ k` が使える型・使えない型）と `std::advance`, `std::distance`
-- [ ] **1.5 参照渡し・コピーコスト・符号なし型の罠**
+- [x] **1.5 参照渡し・コピーコスト・符号なし型の罠**
   - 値渡し vs `const auto&` 参照渡しのコスト差（vector や string を引数にする際の TLE 回避）
   - `container.size()` が `size_t`（符号なし）であることによる減算トラップ（`v.size() - 1` のアンダーフロー）
   - 範囲for文（`for (const auto& x : v)` / `for (auto& x : v)`）の使い分け
