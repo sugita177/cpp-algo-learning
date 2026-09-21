@@ -91,7 +91,7 @@ STLコンテナの内部構造（平衡二分探索木、ヒープ等）を理�
   - 赤黒木による各操作の $O(\log N)$ 保証
   - メンバ関数 `s.lower_bound()` vs 汎用アルゴリズム `std::lower_bound()` の致命的計算量差（$O(\log N)$ vs $O(N)$）
   - `multiset` の要素削除における `erase(val)`（全削除）と `erase(iterator)`（1要素削除）の違い
-- [ ] **2.3 座標圧縮の実装パイプライン**
+- [x] **2.3 座標圧縮の実装パイプライン**
   - 連続した値への写像の考え方
   - イディオム: `std::sort` $\to$ `std::unique` $\to$ `vec.erase` $\to$ `std::lower_bound`
   - 重複排除と元のインデックス復元のフロー
